@@ -93,7 +93,7 @@ public class SalamanderSearch {
          //RIGHT
          newR = curR;
          newC = curC + 1;
-         if(newR < enclosure[0].length && enclosure[newR][newC] != 'W'){
+         if(newC < enclosure[0].length && enclosure[newR][newC] != 'W'){
              moves.add(new int[]{newR, newC});
          }
  
